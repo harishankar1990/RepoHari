@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stockacc">
+  <test name="uomstkcatg">
+    <classes>
+      <class name="com.erp.master.Stkcatg"/>
+      <class name="com.erp.master.Uom"/>
+    </classes>
+  </test> <!-- uomstkcatg -->
+</suite> <!-- Stockacc -->

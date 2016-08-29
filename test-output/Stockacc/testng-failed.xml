@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Stockacc]">
+  <test name="uomstkcatg(failed)">
+    <classes>
+      <class name="com.erp.master.Stkcatg">
+        <methods>
+          <include name="launch"/>
+          <include name="login"/>
+          <include name="stkcatgcreation"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.erp.master.Stkcatg -->
+    </classes>
+  </test> <!-- uomstkcatg(failed) -->
+</suite> <!-- Failed suite [Stockacc] -->
